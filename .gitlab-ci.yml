@@ -22,7 +22,7 @@ run:
   stage: test
   script:
     - docker pull $CONTAINER_TEST_IMAGE
-    - docker run $CONTAINER_TEST_IMAGE sonar-scanner --version
+    - docker run --rm $CONTAINER_TEST_IMAGE sonar-scanner --version
 
 push:
   stage: release
