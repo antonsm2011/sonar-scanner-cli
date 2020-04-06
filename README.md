@@ -2,6 +2,10 @@
 
 Sonar Scanner для GitLab CI/CD.
 
+## DOCKER HUB
+
+`docker pull astrizhachuk/sonar-scanner-cli:4.0.0.1744`
+
 ## FROM
 
 * openjdk:11-jre-slim
